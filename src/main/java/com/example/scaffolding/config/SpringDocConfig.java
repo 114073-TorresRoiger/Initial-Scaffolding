@@ -31,9 +31,6 @@ public class SpringDocConfig {
         @Value("'@project.name@'") String appName,
         @Value("'@project.description@'") String appDescription,
         @Value("'@project.version@'") String appVersion
-        //@Value("${project.name}") String appName,
-        //@Value("${project.description}") String appDescription,
-        //@Value("${project.version}") String appVersion
     ){
         Info info = new Info()
                 .title(appName)
